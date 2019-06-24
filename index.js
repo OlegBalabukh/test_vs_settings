@@ -5,9 +5,15 @@ let f = () => {
     return num;
   })
 }
-let g = () => {
+let addTwo = () => {
   return a.map(num => {
-    return num +2;
+    return num + 2;
+  })
+}
+
+let multipleTwoTimes = () => {
+  return a.map(num => {
+    return num * 2;
   })
 }
 
