@@ -5,3 +5,9 @@ let f = () => {
     return num;
   })
 }
+let g = () => {
+  return a.map(num => {
+    return num +2;
+  })
+}
+
